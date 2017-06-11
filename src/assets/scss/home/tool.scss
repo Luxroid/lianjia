@@ -1,0 +1,50 @@
+.tool {
+  font-size: 16px;
+  background: #fff;
+  margin-top: .32rem;
+}
+.title  {
+  height: 1.47rem;
+  border-bottom: 1px solid #e5e5e5;
+  p {
+  padding-left: .53rem;
+  font-weight: 600;
+  font-size: .43rem;
+  line-height: 1.47rem
+ }
+}
+.toolbox {
+  padding: .53rem 0 0;
+  overflow: hidden;
+}
+.cell {
+  text-align: center;
+  width: 25%;
+  margin-bottom: .53rem;
+  float: left;
+  p{
+    font-size: 14px;
+  }
+  .icon {
+    background-size: 2em 80.75em;
+    display: inline-block;
+    transform: scale(.78125);
+    margin: 0;
+    width: 2em;
+    height: 2em;
+    background: url('https://s1.ljcdn.com/hulk-web/static/m/images/home/sprite.svg?id=201611031730007&version=eqd92onhoj')
+      no-repeat;
+  }
+  .wen {
+    background-position: 0 -47.25em;
+  }
+  .bai {
+    background-position: 0 -49.875em;
+  }
+  .zhao {
+    background-position: 0 -63em;
+  }
+  .ke {
+    background-position: 0 -70.875em;
+  }
+}

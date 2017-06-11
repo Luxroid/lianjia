@@ -1,0 +1,58 @@
+.header {
+  position: relative;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.33rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 .51rem 0 .53rem;
+  .icon {
+    display: inline-block;
+    background: url('https://s1.ljcdn.com/hulk-web/static/m/images/common/sprite_new.svg?id=201607141919&version=eqf8zlemk7');
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  p{
+    font-size: .35rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -.3rem;
+  }
+  .back {
+    width: .535rem;
+    height: .535rem;
+    background-size: .535rem;
+    background-position: 0 -.635rem;
+    margin-right: .34rem;
+  }
+  .spread {
+    width: .24rem;
+    height: .24rem;
+    background-size: .24rem;
+    background-position: 0 -1.71rem;
+  }
+}
+
+.middle {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .logo {
+    width: 1.79rem;
+    height: 100%;
+    background-size: 1.79rem;
+    background-position: 0 -4.49rem;
+  }
+}
+.right {
+  .icon {
+    width: .77rem;
+    height: .77rem;
+    background-size: .77rem;
+  }
+}

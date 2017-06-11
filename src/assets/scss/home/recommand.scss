@@ -1,0 +1,100 @@
+.recommend {
+  // font-size: ;
+  background-color: #fff;
+  margin-top: .32rem;
+  padding-left: .53rem;
+}
+.r-header {
+  position: relative;
+  height: 1.47rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+  .title {
+    font-weight: 600;
+    font-size: .43rem;
+  }
+  .more {
+    color: #9c9fa1;
+    font-size: .32rem;
+    font-weight: 400;
+    margin-right: .64rem;
+  }
+}
+.more::after {
+  position: absolute;
+  content: '';
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNLTE3MS41LTI3Ni41YzAtMTQuMzU5LTExLjY0MS0yNi0yNi0yNnMtMjYgMTEuNjQxLTI2IDI2YzAgNi41ODQgMi40NTIgMTIuNTkyIDYuNDg3IDE3LjE3My0uNDgxIDEuNDE2LS40ODYgMi42MzMtLjQ4NiAyLjYzM3M5LjkyIDguMTk0IDIwLjI2MSA4LjE5NGM5LjYzNCAwIDE5LjczOS04LjE5NiAxOS43MzktOC4xOTYuMDA4LTEuMDA3LS4xNDMtMS45MDYtLjQyNS0yLjcwMSAzLjk5Ni00LjU3MyA2LjQyNC0xMC41NTMgNi40MjQtMTcuMTAzeiIgZmlsbD0ibm9uZSIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjYWFhIiBkPSJNMjMuNzUyIDE1Ljc0MmwtMTMuNzM4LTEzLjc0Mi0xLjc2NiAxLjc2NyAxMi4yMzEgMTIuMjMzLTEyLjIzMSAxMi4yMzQgMS43NjYgMS43NjYgMTMuNzM4LTEzLjc0MS0uMjU4LS4yNTl6Ii8+PC9zdmc+) center center no-repeat;
+  background-size: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .21rem;
+  width: .64rem;
+  height: .64rem;
+}
+// .content {
+//   border-bottom: 1px solid #e5e5e5;
+//   padding: .53rem .53rem .53rem 0;
+// }
+// .r-content {
+//   display: flex;
+//   .img{
+//     width: 2.88rem;
+//     img{
+//       max-width: 100%;
+//     }
+//   }
+//   .right {
+//     padding-left: .53rem;
+//     padding-right: .53rem;
+//     .title{
+//       line-height: 0.6rem;
+//       margin-bottom: .19rem;
+//       font-size: .43rem;
+//     }
+//     .subtitle {
+//       color: #8b8b8b;
+//       margin-bottom: .19rem;
+//       font-size: .32rem;
+//     }
+//     .money {
+//       font-size: .29rem;
+//       color: #9c9fa1;
+//       margin-top: -.1rem;
+//       margin-bottom: .1rem;
+//       .tmoney {
+//         color: #fa5741;
+//         font-weight: 600;
+//         font-size: .4rem;
+//         margin-right: .13rem;
+//       }
+//     }
+//     .time {
+//       color: rgb(242,161,47);
+//       background-color: rgba(242,161,47,.15);
+//     }
+//     .look{
+//       color: rgb(51,190,133);
+//       background-color: rgba(51,190,133,0.15);
+//     }
+//     .tran{
+//       color: rgb(123,189,255);
+//       margin-right: .1rem;
+//       background-color: rgba(123,189,255,0.15);
+//     }
+//   }
+// }
+// .right > span{
+//   margin: 0 .13rem 0 0;
+//   line-height: .5rem;
+// }
+.somes {
+  font-size: .35rem;
+  padding: .11rem .21rem;
+  background-color: #f9f9f9;
+  color: #9c9fa1;
+  margin-top: .32rem;
+  margin-right: .53rem;
+}

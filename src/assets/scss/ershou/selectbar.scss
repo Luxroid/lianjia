@@ -1,0 +1,36 @@
+.sb {
+  display: flex;
+  height: 1.17rem;
+  background-color: #fff;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.cell{
+  font-size: 16px;
+  flex:1;
+  text-align: center;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  p {
+    font-size: .43rem;
+    display: inline-block;
+    font-weight: 100;
+    vertical-align: middle;
+  }
+  .icon {
+    display: inline-block;
+    background-image: url('https://s1.ljcdn.com/hulk-web/static/m/images/common/sprite.svg?id=201607141919&version=eqf8zlemk7');
+    width: .85rem;
+    height: .85rem;
+    line-height: .85rem;
+    transform: scale(.35);
+    background-size: 2em 62.375em;
+    vertical-align: middle;
+    margin-left: -.16rem;
+    background-position: 0 -5.25em;
+    vertical-align: middle;
+  }
+}

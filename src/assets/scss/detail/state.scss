@@ -1,0 +1,48 @@
+.state {
+  padding: 0 0 0 .53rem;
+  margin-top: .32rem;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+.header {
+  height: 1.81rem;
+  line-height: 1.81rem;
+  font-size: .51rem;
+  font-weight: 700;
+}
+.content {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding-bottom: .64rem;
+  .cell {
+    flex: 1;
+    text-align: left;
+    p{
+      color: grey;
+    }
+    strong {
+      font-size: .69rem;
+      color: #333;
+      font-weight: 500;
+      margin-bottom: .05rem;
+      line-height: .8rem;
+    }
+  }
+}
+.dl {
+  border-top: 1px solid #e5e5e5;
+  line-height: .43rem;
+  text-align: center;
+  padding: .57rem .53rem .57rem 0;
+  font-size: .43rem;
+  .button {
+    border: 1px solid #00A75B;
+    background-color: #fff;
+    color: #00A75B;
+    display: inline-block;
+    padding: .27rem 1.13rem;
+    border-radius: .1rem;
+    margin-top: .43rem;
+  }
+}

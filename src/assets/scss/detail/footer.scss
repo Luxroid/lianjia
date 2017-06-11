@@ -1,0 +1,110 @@
+.footer {
+  background-color: #fff;
+  margin-top: .32rem;
+  padding: 0 0 0 .53rem;
+}
+.hheader {
+  height: 1.81rem;
+  line-height: 1.81rem;
+  margin-bottom: -.64rem;
+  font-size: .51rem;
+  font-weight: 600;
+}
+.content {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cheader {
+  margin-top: -.5rem;
+}
+.header {
+  position: relative;
+  border: none;
+  height: 1.81rem;
+  line-height: 1.81rem;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &:before {
+    position: absolute;
+    content: '';
+    width: .64rem;
+    height: .64rem;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNLTE3MS41LTI3Ni41YzAtMTQuMzU5LTExLjY0MS0yNi0yNi0yNnMtMjYgMTEuNjQxLTI2IDI2YzAgNi41ODQgMi40NTIgMTIuNTkyIDYuNDg3IDE3LjE3My0uNDgxIDEuNDE2LS40ODYgMi42MzMtLjQ4NiAyLjYzM3M5LjkyIDguMTk0IDIwLjI2MSA4LjE5NGM5LjYzNCAwIDE5LjczOS04LjE5NiAxOS43MzktOC4xOTYuMDA4LTEuMDA3LS4xNDMtMS45MDYtLjQyNS0yLjcwMSAzLjk5Ni00LjU3MyA2LjQyNC0xMC41NTMgNi40MjQtMTcuMTAzeiIgZmlsbD0ibm9uZSIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjYWFhIiBkPSJNMjMuNzUyIDE1Ljc0MmwtMTMuNzM4LTEzLjc0Mi0xLjc2NiAxLjc2NyAxMi4yMzEgMTIuMjMzLTEyLjIzMSAxMi4yMzQgMS43NjYgMS43NjYgMTMuNzM4LTEzLjc0MS0uMjU4LS4yNTl6Ii8+PC9zdmc+) center center no-repeat;
+    background-size: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: .21rem;
+    top: 50%;
+    z-index: 9999;
+  }
+  .xtitle {
+    display: inline-block;
+    font-size: .43rem;
+    font-weight: 700;
+  }
+  .xsubtitle {
+    display: inline-block;
+    color: #9c9fa1;
+    font-size: .35rem;
+    font-weight: 400;
+    margin-right: .85rem;
+  }
+}
+.none {
+  border-bottom: none!important;
+}
+.scroll_house_sour {
+  margin-bottom: .5rem;
+  padding-bottom: .53rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  .scrollx {
+    display: block;
+    width: 16.51rem;
+  }
+}
+.sc-scroll {
+  float: left;
+  margin-right: .29rem;
+  .img {
+    position: relative;
+    margin-bottom: .37rem;
+  }
+  .pic {
+    display: inline-block;
+    width: 5.17rem;
+    height: 3.89rem;
+  }
+  .describe {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: .05rem .13rem;
+    font-size: .32rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #394043;
+  }
+  .sc-title {
+    font-size: .43rem;
+    margin: .09rem 0;
+  }
+  .money {
+    font-size: .35rem;
+    color: #6b7072;
+    .tmoney {
+      color: #fa5741;
+      font-weight: 700;
+      font-size: .43rem;
+      margin-right: .16rem;
+    }
+  }
+}

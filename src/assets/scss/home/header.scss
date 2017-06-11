@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 290803 */
+  src: url('https://at.alicdn.com/t/font_bs9233vpn0rltyb9.eot');
+  src: url('https://at.alicdn.com/t/font_bs9233vpn0rltyb9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_bs9233vpn0rltyb9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_bs9233vpn0rltyb9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_bs9233vpn0rltyb9.svg#iconfont') format('svg');
+}
+.dl-header{
+  background-color: #fff;
+  margin: .4rem;
+  box-shadow: 0 .13rem .27rem rgba(0,0,0,.15);
+  display: flex;
+  padding: .43rem;
+  border-radius: .38rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.dl_left .logo{
+  width: 1.34rem;
+  height: 1.34rem;
+  vertical-align: middle;
+}
+.dl_left .describe{
+  display: inline-block;
+  margin-left: .43rem;
+  vertical-align: middle;
+  .title{
+    font-size: .43rem;
+    color: #394043;
+  }
+  .subtitle{
+    margin-top: .08rem;
+    color: #9c9fa1;
+  }
+}
+.dl-right .dl{
+  display: inline-block;
+  width: 2.28rem;
+  height: .86rem;
+  background-color: #00ae66;
+  color: #fff;
+  border: none;
+  border-radius: .05rem;
+}
+.p-header{
+  position: relative;
+  height: 6.04rem;
+  background: url('https://s1.ljcdn.com/hulk-web/static/m/images/home/head_bg.jpg?id=201607141919&version=eq7ojdu289') center no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+   .slogan{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     height: 1.06rem;
+     width: 5.42rem;
+   }
+}
+.top{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .4rem 0 .4rem;
+  height: 1.21rem;
+  line-height: 1.21rem;
+  align-items: center;
+}
+.user_info{
+  display: inline-block;
+  padding: 0 .21rem;
+  text-align: center;
+  height: .64rem;
+  line-height: .64rem;
+  border-radius: .32rem;
+  background-color: rgba(0,0,0,0.5);
+  span{
+    font-size: .35rem;
+  }
+}
+
+.iconfont{
+	font-family:"iconfont";
+	font-size: .35rem;
+	font-style:normal;
+}
+.h-search{
+  background-color: #fff;
+  width: auto;
+  padding-left: .68rem;
+  position: absolute;
+  bottom: .11rem;
+  left: .4rem;
+  right: .4rem;
+  margin: .32rem 0;
+  border-radius: .05rem;
+  i{
+    position: absolute;
+    left: .21rem;
+    top: .31rem;
+  }
+  .hint {
+    height: .94rem;
+    line-height: normal;
+    width: 100%;
+    background-color: #fff;
+    border: 0px;
+  }
+  .sear{
+    color: #9c9fa1;
+  }
+}
+.hint::-webkit-input-placeholder {
+    color:#9c9fa1;
+    font-size: .34rem;
+}

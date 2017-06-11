@@ -1,0 +1,31 @@
+.search{
+  margin-bottom: -.32rem;
+  height: 1.33rem;
+  background-color: #f9f9f9;
+  padding: .27rem;
+}
+.input {
+  background-color: #e8e8e9;
+  height: .8rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  line-height: .8rem;
+  font-size: .32rem;
+  p{
+    display: inline-block;
+    color: #9c9fa1;
+    vertical-align: middle;
+  }
+  .icon {
+    display: inline-block;
+    width: .85rem;
+    height: .85rem;
+    background-image: url('https://s1.ljcdn.com/hulk-web/static/m/images/common/sprite.svg?id=201607141919&version=eqf8zlemk7');
+    background-repeat: no-repeat;
+    background-size: .85rem 26.61rem;
+    background-position: 0 -5.6rem;
+    transform: scale(.5);
+    vertical-align: middle;
+  }
+}

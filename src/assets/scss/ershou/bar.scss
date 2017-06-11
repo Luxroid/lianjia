@@ -1,0 +1,75 @@
+.bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1.33rem;
+  background: rgba(0,0,0,.68);
+  color: #fff;
+  .flex {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+.left {
+  margin-left: .53rem;
+  .logo {
+    display: inline-block;
+    background-image: url('https://s1.ljcdn.com/hulk-web/static/m/images/common/logo300x300.png?id=201607011613&version=eqf8zlemk7');
+    height: .8rem;
+    width: .8rem;
+    background-size: .8rem .8rem;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: .16rem;
+  }
+}
+.describe {
+  display: inline-block;
+  vertical-align: middle;
+}
+.right{
+  height: 100%;
+  width: 2.93rem;
+  .dl{
+    width: 100%;
+    height: 100%;
+    background: #00ae66;
+    border: none;
+    font-size: .43rem;
+    color: #fff;
+  }
+}
+.close {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: .34rem solid;
+    border-color: rgba(0,0,0,.3) transparent transparent rgba(0,0,0,.3);
+}
+.close::after, .close::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: .027rem;
+  width: .24rem;
+  background-color: #cdcfd0;
+  opacity: .3;
+  left: -.13rem;
+  top: -.13rem;
+  -webkit-transform: translate(-50%,-50%) rotate(45deg);
+  -ms-transform: translate(-50%,-50%) rotate(45deg);
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.close::after {
+  -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+  -ms-transform: translate(-50%,-50%) rotate(-45deg);
+  transform: translate(-50%,-50%) rotate(-45deg);
+}

@@ -1,0 +1,55 @@
+.content{
+  font-size: 16px;
+  background-color: #fff;
+  padding: .13rem .27rem .53rem;
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.link:visited {
+  color: #000;
+  text-decoration: none;
+}
+.cell{
+  margin-top: .4rem;
+  float: left;
+  width: 25%;
+  text-align: center;
+  .icon {
+    margin: .29rem;
+    background: url('https://s1.ljcdn.com/hulk-web/static/m/images/home/sprite.svg?id=201611031730007&version=eqd92onhoj') no-repeat;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    -webkit-background-size: 2em 80.75em;
+    background-size: 2em 80.75em;
+    transform: scale(1.6875);
+  }
+  .ershou {
+    background-position: 0 -7.875em;
+  }
+  .xin {
+    background-position: 0 -15.75em;
+  }
+  .zu {
+    background-position: 0 -23.625em;
+  }
+  .mai{
+    background-position: 0 -10.5em;
+  }
+  .dl{
+    background-position: 0 -76.125em;
+  }
+  .hai{
+    background-position: 0 -26.25em;
+  }
+  .cha{
+    background-position: 0 -2.625em;
+  }
+  .zhao {
+    background-position: 0 -73.5em;
+  }
+}

@@ -1,0 +1,80 @@
+.tabbar{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  padding: .21rem .21rem .21rem 0;
+  box-shadow: 0 -.05rem .11rem rgba(0,0,0,.1);
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #333;
+  z-index: 9999;
+}
+.left {
+  font-size: 16px;
+  width: 2.21rem;
+  height: .1.31rem;
+  line-height: .655rem;
+  text-align: center;
+  position: relative;
+  .icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-bottom: .2rem;
+    background-repeat: no-repeat;
+    background-image: url(https://s1.ljcdn.com/hulk-web/static/m/images/wenda/sprite.svg?id=201607151330007&version=eqf8zlemk7);
+    -webkit-transform: scale(.7);
+    transform: scale(.7);
+    background-size: 2em;
+
+  }
+  .follow {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    font-size: .24rem;
+    height: .37rem;
+    line-height: .37rem;
+    left: 0;
+    color: #6b7072;
+  }
+}
+.one {
+  margin-right: .21rem;
+  flex: 1;
+  color: #fff;
+  .order {
+    color: #fff;
+    background: #FF725C;
+    border: none;
+    border-radius: .05rem;
+    width: 100%;
+    height: 1.31rem;
+    line-height: 1.31rem;
+  }
+}
+.unlike {
+  background-position: 0 -23.75em;
+}
+.like {
+  background-position: 0 -26.2em;
+}
+.two {
+  // margin-right: .21rem;
+  flex: 1;
+  color: #fff;
+  .ask {
+    color: #fff;
+    background: #00ae66;;
+    border: none;
+    border-radius: .05rem;
+    width: 100%;
+    height: 1.31rem;
+    line-height: 1.31rem;
+  }
+}

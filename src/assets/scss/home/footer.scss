@@ -1,0 +1,78 @@
+.footer {
+  margin-top: .32rem;
+  padding: 0 .4rem;
+  background: #2f3130;
+  color: #727373;
+}
+.f-title{
+  height: .85rem;
+  line-height: .85rem;
+  border-bottom: 1px solid #3e403f;
+  font-size: .27rem;
+  p{
+    color: #939494;
+  }
+}
+.f-content{
+  padding: .43rem 0 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .nav {
+    flex: 1;
+    text-align: center;
+    background-color: #212121;
+    margin: 0 .21rem;
+    text-decoration: none;
+    font-size: .37rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: .85rem;
+    .link {
+      display: inline-block;
+    }
+  }
+}
+.partactive, .hotactive{
+  background-color: #3c3f3d!important;
+  color: #828383!important;
+  .link {
+    color: #828383!important;
+  }
+}
+.info {
+  padding-left: .29rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  height: 1.33rem;
+  .and_ios_dl{
+    width: 3.33rem;
+    padding-top: .37rem;
+    .dl{
+      display: inline-block;
+      width: 1.6rem;
+      height: .61rem;
+      opacity: .3;
+      background-size: 1.6rem 1.23rem;
+      background-image: url('https://s1.ljcdn.com/hulk-web/static/m/images/common/foot_sprite.png?id=201607141919&version=eqf8zlemk7');
+    }
+    .ios_dl {
+      background-position: 0 0;
+    }
+    .and_dl {
+      background-position: 0 -.61rem;
+    }
+  }
+  .website_info {
+    padding-top: .35rem;
+    text-align: right;
+    flex: 1;
+    p{
+      font-size: 6px;
+
+    }
+  }
+}
